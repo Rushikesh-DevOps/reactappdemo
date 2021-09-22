@@ -8,11 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    strategy:
-      martix:
-        node-version: [15.x]
-    
+      
     steps:
       - uses: actions/checkout@v1
       - run: npm install
