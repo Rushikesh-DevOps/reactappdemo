@@ -12,6 +12,7 @@ jobs:
     strategy:
       martix:
         node-version: [15.x]
+    
     steps:
       - uses: actions/checkout@v1
       - run: npm install
